@@ -1,0 +1,28 @@
+{
+    "name": "admubu/mypacket",
+    "description": "test packet",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladislav",
+            "email": "dvoryninov_v@codeking.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^9.0@dev"
+    },
+    "autoload":{
+    	"psr-4":{
+    		"Lara\\MyPack\\":"src/"
+    	}
+    },
+    "extra":{
+    	"laravel":{
+    		"providers":[
+    			"Lara\\MyPack\\MypacketServiceProvider"
+    		]
+    	}
+    }
+}
