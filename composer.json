@@ -10,8 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
-        "illuminate/support": "^9.0@dev"
+        "illuminate/support": "^8.31"
     },
     "autoload":{
     	"psr-4":{
